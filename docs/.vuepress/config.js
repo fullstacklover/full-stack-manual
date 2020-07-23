@@ -1,7 +1,7 @@
 module.exports = {
     base: '/',//基础路径
     head: [
-        ['meta', { name: 'keywords', content: 'Go 语言,日志' }]
+        ['meta', { name: 'keywords', content: '全栈,手册' }]
     ],
     host: '0.0.0.0',
     dest: './dist',//打包输出目录
@@ -11,8 +11,8 @@ module.exports = {
     theme: undefined,
     themeConfig: {
         logo: '/images/misitebao.png',
-        repo: 'https://github.com/misitebao/template-vuepress',
-        docsRepo: 'https://github.com/misitebao/template-vuepress',
+        repo: 'https://github.com/misitebao/full-stack-manual',
+        docsRepo: 'https://github.com/misitebao/full-stack-manual',
         docsDir: 'docs',
         docsBranch: 'master',
         editLinks: true,
