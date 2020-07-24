@@ -10,7 +10,7 @@ features:
   details: 描述内容 2
 - title: 描述 3
   details: 描述内容 3
-footer: MIT Licensed | Copyright © 2019-present 米司特包
+footer: MIT Licensed | Copyright © 2019-present 米司特包 鄂ICP备20006255号
 ---
 # README
 一个 vuepress 模板
