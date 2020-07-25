@@ -1,7 +1,10 @@
 module.exports = {
     base: '/',//基础路径
     head: [
-        ['meta', { name: 'keywords', content: '全栈,手册' }]
+        ['meta', {
+            name: 'keywords',
+            content: '米司全栈知识手册,米司手册,全栈手册,大前端,前端教程,前端面试,简历,es6,nodejs,go,golang'
+        }]
     ],
     host: '0.0.0.0',
     dest: './dist',//打包输出目录
@@ -36,10 +39,36 @@ module.exports = {
                     text: 'Home', link: '/book/'
                 },
                 {
-                    text: 'type1',
+                    text: 'Front End',
                     items: [
-                        { text: 'dira', link: '/book/dir-a/' },
-                        { text: 'dirb', link: '/book/dir-b/' }
+                        { text: 'Front end Foundation', link: '/book/dir-a/' },
+                        { text: 'Front end Algorithm', link: '/book/dir-b/' },
+                        { text: 'ES6+', link: '/book/dir-b/' },
+                    ]
+                },
+                {
+                    text: 'NodeJS', link: '/book/'
+                },
+                {
+                    text: 'Golang', link: '/book/'
+                },
+                {
+                    text: 'Database', link: '/book/'
+                },
+                {
+                    text: 'Interview Collection', link: '/book/'
+                },
+                {
+                    text: 'About', link: '/book/'
+                },
+                {
+                    text: 'Recruit·Internal recommendation', link: '/book/'
+                },
+                {
+                    text: 'Links',
+                    items: [
+                        { text: '米司博客', link: 'https://blog.misitebao.com' },
+                        { text: '机房钢琴师的个人博客', link: 'http://webwanghui.cn/' }
                     ]
                 }],
                 sidebar: [{
@@ -88,10 +117,44 @@ module.exports = {
                     text: '主页', link: '/zh/book/'
                 },
                 {
-                    text: '分类一',
+                    text: '大前端',
                     items: [
-                        { text: '目录A', link: '/zh/book/dir-a/' },
-                        { text: '目录b', link: '/zh/book/dir-b/' }
+                        { text: '前端基础', link: '/zh/book/dir-a/' },
+                        { text: '前端算法', link: '/zh/book/dir-b/' },
+                        { text: 'ES6+', link: '/zh/book/dir-b/' },
+                    ]
+                },
+                {
+                    text: 'NodeJS', link: '/zh/book/'
+                },
+                {
+                    text: 'Golang', link: '/zh/book/'
+                },
+                {
+                    text: '数据库', link: '/zh/book/'
+                },
+                {
+                    text: '优质仓库',
+                    items: [
+                        { text: '大前端', link: '/zh/book/dir-b/' },
+                        { text: 'Nodejs', link: '/zh/book/dir-b/' },
+                        { text: 'Golang', link: '/zh/book/dir-a/' },
+                    ]
+                },
+                {
+                    text: '面试集合', link: '/zh/book/'
+                },
+                {
+                    text: '关于', link: '/zh/book/'
+                },
+                {
+                    text: '招聘·内推', link: '/zh/book/'
+                },
+                {
+                    text: '友情链接',
+                    items: [
+                        { text: '米司博客', link: 'https://blog.misitebao.com' },
+                        { text: '机房钢琴师的个人博客', link: 'http://webwanghui.cn/' }
                     ]
                 }],
                 sidebar: [{
@@ -103,7 +166,8 @@ module.exports = {
                         '/zh/book/dir-a/file-2',
                         '/zh/book/dir-a/file-3'
                     ]
-                }, {
+                },
+                {
                     title: '目录B',
                     path: '/zh/book/dir-b/',
                     collapsable: false,
