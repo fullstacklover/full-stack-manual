@@ -39,6 +39,17 @@ module.exports = {
                     text: 'Home', link: '/book/'
                 },
                 {
+                    text: 'Development Tool',
+                    items: [
+                        {
+                            text: 'VsCode',
+                            items: [{
+                                text: 'Plug In Development', link: 'https://liiked.github.io/VS-Code-Extension-Doc-ZH'
+                            }]
+                        },
+                    ]
+                },
+                {
                     text: 'Front End',
                     items: [
                         { text: 'Front end Foundation', link: '/book/dir-a/' },
@@ -115,6 +126,17 @@ module.exports = {
                 sidebar: 'auto',
                 nav: [{
                     text: '主页', link: '/zh/book/'
+                },
+                {
+                    text: '开发工具',
+                    items: [
+                        {
+                            text: 'VsCode',
+                            items: [{
+                                text: '插件开发中文文档', link: 'https://liiked.github.io/VS-Code-Extension-Doc-ZH'
+                            }]
+                        },
+                    ]
                 },
                 {
                     text: '大前端',
