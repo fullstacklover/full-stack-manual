@@ -139,6 +139,9 @@ module.exports = {
                     ]
                 },
                 {
+                    text: 'Vue', link: '/zh/book/vue/'
+                },
+                {
                     text: '大前端',
                     items: [
                         { text: '前端基础', link: '/zh/book/dir-a/' },
