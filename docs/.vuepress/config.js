@@ -3,7 +3,7 @@ module.exports = {
     head: [
         ['meta', {
             name: 'keywords',
-            content: '米司全栈知识手册,米司手册,全栈手册,大前端,前端教程,前端面试,简历,es6,nodejs,go,golang'
+            content: '全栈知识手册,全栈手册,大前端,前端教程,前端面试,简历,es6,nodejs,go,golang'
         }]
     ],
     host: '0.0.0.0',
@@ -14,8 +14,8 @@ module.exports = {
     theme: undefined,
     themeConfig: {
         logo: '/images/misitebao.png',
-        repo: 'https://github.com/misitebao/full-stack-manual',
-        docsRepo: 'https://github.com/misitebao/full-stack-manual',
+        repo: 'https://github.com/fullstacklover/full-stack-manual',
+        docsRepo: 'https://github.com/fullstacklover/full-stack-manual',
         docsDir: 'docs',
         docsBranch: 'master',
         editLinks: true,
