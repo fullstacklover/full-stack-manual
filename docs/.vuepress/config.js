@@ -214,7 +214,7 @@ module.exports = {
         },
         '/zh/': {
             lang: 'zh-CN',
-            title: '米司全栈知识手册',
+            title: '全栈知识手册',
             description: '打造最全的全栈知识手册'
         }
     }
