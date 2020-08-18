@@ -4,6 +4,11 @@ module.exports = {
     ['meta', {
       name: 'keywords',
       content: '全栈知识手册,全栈手册,大前端,前端教程,前端面试,简历,es6,nodejs,go,golang'
+    }],
+    ['link', {
+      rel: 'shortcut icon',
+      type: 'image/x-icon',
+      href: '/images/favicon.ico'
     }]
   ],
   host: '0.0.0.0',
@@ -13,7 +18,7 @@ module.exports = {
   },
   theme: undefined,
   themeConfig: {
-    logo: '/images/misitebao.png',
+    logo: '/images/fullstacklover_gravatar.png',
     repo: 'https://github.com/fullstacklover/full-stack-manual',
     docsRepo: 'https://github.com/fullstacklover/full-stack-manual',
     docsDir: 'docs',
@@ -157,7 +162,7 @@ module.exports = {
           text: 'NodeJS',
           items: [
             {
-              text: 'Koa', link: '/zh/book/nodejs/koa/'
+              text: 'Koa', link: '/zh/book/nodejs/koa/introduction-framework.md'
 
             },
           ]
@@ -182,9 +187,9 @@ module.exports = {
         // {
         //     text: '关于', link: '/zh/book/'
         // },
-        // {
-        //     text: '招聘·内推', link: '/zh/book/'
-        // },
+        {
+          text: '招聘·内推', link: 'https://github.com/fullstacklover/full-stack-manual/issues/3'
+        },
         {
           text: '友情链接',
           items: [
@@ -313,11 +318,11 @@ module.exports = {
   locales: {
     // 键名是该语言所属的子路径
     // 作为特例，默认语言可以使用 '/' 作为其路径。
-    '/': {
-      lang: 'en-US', // 将会被设置为 <html> 的 lang 属性
-      title: 'Full Stack Manual',
-      description: `Create the most complete knowledge Manual of the full stack`
-    },
+    // '/': {
+    //   lang: 'en-US', // 将会被设置为 <html> 的 lang 属性
+    //   title: 'Full Stack Manual',
+    //   description: `Create the most complete knowledge Manual of the full stack`
+    // },
     '/zh/': {
       lang: 'zh-CN',
       title: '全栈知识手册',
