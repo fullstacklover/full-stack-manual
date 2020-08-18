@@ -247,7 +247,7 @@ let strLength: number = (someValue as string).length;
 
 ---
 
-### let声明
+### 声明
 
 由于本章侧重于帮助读者流畅地阅读文档中出现的TS代码，因此本节不再赘述var和新关键字之间的区别，读者如有兴趣可自行参考[TypeScript文档]()。
 
