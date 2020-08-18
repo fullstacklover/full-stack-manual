@@ -153,9 +153,15 @@ module.exports = {
         //     { text: 'ES6+', link: '/zh/book/dir-b/' },
         //   ]
         // },
-        // {
-        //     text: 'NodeJS', link: '/zh/book/'
-        // },
+        {
+          text: 'NodeJS',
+          items: [
+            {
+              text: 'Koa', link: '/zh/book/nodejs/koa/'
+
+            },
+          ]
+        },
         // {
         //     text: 'Golang', link: '/zh/book/'
         // },
@@ -187,16 +193,6 @@ module.exports = {
           ]
         }],
         sidebar: {
-          "/zh/book/dir-a/": [{
-            title: '目录A',
-            path: '/zh/book/dir-a/',
-            collapsable: false,
-            children: [
-              '/zh/book/dir-a/file-1',
-              '/zh/book/dir-a/file-2',
-              '/zh/book/dir-a/file-3'
-            ]
-          }],
           "/zh/book/development-tools/vscode/development-plugin/": [
             {
               title: '插件开发文档',
@@ -297,7 +293,19 @@ module.exports = {
                 { title: '标签中的图标', path: '/zh/book/development-tools/vscode/development-plugin/references/icons-in-labels.md' },
                 { title: '文档选择器', path: '/zh/book/development-tools/vscode/development-plugin/references/document-selector.md' },
               ]
-            }]
+            }
+          ],
+          "/zh/book/nodejs/koa/": [
+            {
+              title: 'Koa',
+              // path: '/zh/book/nodejs/koa/',
+              collapsable: false,
+              children: [
+                { title: '框架简介', path: '/zh/book/nodejs/koa/introduction-framework.md' },
+                { title: '快速开始', path: '/zh/book/nodejs/koa/quick-start.md' },
+              ]
+            }
+          ],
         }
       }
     }
