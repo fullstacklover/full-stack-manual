@@ -35,71 +35,75 @@ module.exports = {
         algolia: {},
         sidebarDepth: 2,
         sidebar: 'auto',
-        nav: [{
-          text: 'Home', link: '/book/'
-        },
-        {
-          text: 'Development Tool',
-          items: [
-            {
-              text: 'VsCode',
-              items: [{
-                text: 'Plug In Development', link: 'https://liiked.github.io/VS-Code-Extension-Doc-ZH'
-              }]
-            },
-          ]
-        },
-        {
-          text: 'Front End',
-          items: [
-            { text: 'Front end Foundation', link: '/book/dir-a/' },
-            { text: 'Front end Algorithm', link: '/book/dir-b/' },
-            { text: 'ES6+', link: '/book/dir-b/' },
-          ]
-        },
-        {
-          text: 'NodeJS', link: '/book/'
-        },
-        {
-          text: 'Golang', link: '/book/'
-        },
-        {
-          text: 'Database', link: '/book/'
-        },
-        {
-          text: 'Interview Collection', link: '/book/'
-        },
-        {
-          text: 'About', link: '/book/'
-        },
-        {
-          text: 'Recruit·Internal recommendation', link: '/book/'
-        },
-        {
-          text: 'Links',
-          items: [
-            { text: '米司博客', link: 'https://blog.misitebao.com' },
-            { text: '机房钢琴师的个人博客', link: 'http://webwanghui.cn/' }
-          ]
-        }],
-        sidebar: [{
-          title: 'dira',
-          path: '/book/dir-a/',
-          collapsable: false,
-          children: [
-            '/book/dir-a/file-1',
-            '/book/dir-a/file-2',
-            '/book/dir-a/file-3'
-          ]
-        }, {
-          title: 'dirb',
-          path: '/book/dir-b/',
-          collapsable: false,
-          children: [
-            '/book/dir-b/file-1',
-            '/book/dir-b/file-2',
-            '/book/dir-b/file-3']
-        }],
+        nav: [
+          // {
+          //   text: 'Home', link: '/book/'
+          // },
+          // {
+          //   text: 'Development Tool',
+          //   items: [
+          //     {
+          //       text: 'VsCode',
+          //       items: [{
+          //         text: 'Plug In Development', link: 'https://liiked.github.io/VS-Code-Extension-Doc-ZH'
+          //       }]
+          //     },
+          //   ]
+          // },
+          // {
+          //   text: 'Front End',
+          //   items: [
+          //     { text: 'Front end Foundation', link: '/book/dir-a/' },
+          //     { text: 'Front end Algorithm', link: '/book/dir-b/' },
+          //     { text: 'ES6+', link: '/book/dir-b/' },
+          //   ]
+          // },
+          // {
+          //   text: 'NodeJS', link: '/book/'
+          // },
+          // {
+          //   text: 'Golang', link: '/book/'
+          // },
+          // {
+          //   text: 'Database', link: '/book/'
+          // },
+          // {
+          //   text: 'Interview Collection', link: '/book/'
+          // },
+          // {
+          //   text: 'About', link: '/book/'
+          // },
+          // {
+          //   text: 'Recruit·Internal recommendation', link: '/book/'
+          // },
+          // {
+          //   text: 'Links',
+          //   items: [
+          //     { text: '米司博客', link: 'https://blog.misitebao.com' },
+          //     { text: '机房钢琴师的个人博客', link: 'http://webwanghui.cn/' }
+          //   ]
+          // }
+        ],
+        sidebar: [
+          // {
+          //   title: 'dira',
+          //   path: '/book/dir-a/',
+          //   collapsable: false,
+          //   children: [
+          //     '/book/dir-a/file-1',
+          //     '/book/dir-a/file-2',
+          //     '/book/dir-a/file-3'
+          //   ]
+          // }, {
+          //   title: 'dirb',
+          //   path: '/book/dir-b/',
+          //   collapsable: false,
+          //   children: [
+          //     '/book/dir-b/file-1',
+          //     '/book/dir-b/file-2',
+          //     '/book/dir-b/file-3']
+          // }
+        ],
       },
       '/zh/': {
         // 多语言下拉菜单的标题
