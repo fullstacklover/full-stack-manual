@@ -1,15 +1,19 @@
 {
-  "name": "template-vuepress",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "name": "full-stack-manual",
+  "version": "1.0.0",
+  "description": "全栈知识手册",
+  "main": "",
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "test": "serve dist"
+    "dev": "npx vuepress dev docs",
+    "build": "npx vuepress build docs",
+    "test": "npx serve dist"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "全栈",
+    "手册",
+    "全栈爱好者"
+  ],
+  "author": "fullstacklover",
   "license": "ISC",
   "devDependencies": {
     "serve": "^11.3.2",
