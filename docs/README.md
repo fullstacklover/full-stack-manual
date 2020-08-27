@@ -10,7 +10,7 @@ actionLink: /zh/book/
 #   details: details 2
 # - title: title 3
 #   details: details 3
-footer: MIT Licensed | Copyright © 2019-present misitebao
+footer: MIT Licensed | Copyright © 2019-present FullStackLover
 ---
 <!-- # README
 A vuepress template
