@@ -13,7 +13,9 @@
 [官网 https://manual.fullstacklover.com/](https://manual.fullstacklover.com/)
 
 ## :foggy: 演示
+
 ![](https://cdn.jsdelivr.net/gh/misitebao/CDN@master/md/20200827150719.png)
+
 ## :large_blue_diamond: 项目示例
 
 ## :eight_spoked_asterisk: 项目特点
@@ -32,4 +34,9 @@
 
 ## :clap: 鸣谢
 
+* [VS-Code-Extension-Doc-ZH](https://github.com/Liiked/VS-Code-Extension-Doc-ZH)
+* [https://koa.bootcss.com/](https://koa.bootcss.com/)
+
 ## :copyright: 版权信息
+
+[License MIT](LICENSE)

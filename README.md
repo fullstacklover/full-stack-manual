@@ -13,6 +13,7 @@ English | [中文](README_zh.md)
 [website https://manual.fullstacklover.com/](https://manual.fullstacklover.com/)
 
 ## :foggy: Demo
+
 ![](https://cdn.jsdelivr.net/gh/misitebao/CDN@master/md/20200827150719.png)
 
 ## :large_blue_diamond: Example
@@ -33,4 +34,9 @@ English | [中文](README_zh.md)
 
 ## :clap: Thanks
 
+* [VS-Code-Extension-Doc-ZH](https://github.com/Liiked/VS-Code-Extension-Doc-ZH)
+* [https://koa.bootcss.com/](https://koa.bootcss.com/)
+
 ## :copyright: License
+
+[License MIT](LICENSE)
