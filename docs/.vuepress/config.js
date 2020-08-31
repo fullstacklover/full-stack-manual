@@ -194,7 +194,9 @@ module.exports = {
           text: '友情链接',
           items: [
             { text: '米司博客', link: 'https://blog.misitebao.com' },
-            { text: '机房钢琴师的个人博客', link: 'http://webwanghui.cn/' }
+            { text: '机房钢琴师的个人博客', link: 'http://webwanghui.cn/' },
+            { text: '一个捞人的语雀分享',link:'https://www.yuque.com/luomouren/wu1op7'},
+            { text: '一个捞人的个人主页',link:'https://www.luotianyi888.cn'}
           ]
         }],
         sidebar: {
