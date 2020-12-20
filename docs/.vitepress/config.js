@@ -1,5 +1,6 @@
 module.exports = {
   base: '/',//基础路径
+  title: '全栈手册',
   head: [
     ['meta', {
       name: 'keywords',
@@ -58,7 +59,7 @@ module.exports = {
             text: '🌌大前端', link: '/frontend/'
           },
           {
-            text: 'NodeJS',
+            text: '🚵NodeJS',
             items: [
               {
                 text: 'Koa', link: '/nodejs/koa/introduction-framework'
@@ -72,7 +73,7 @@ module.exports = {
             text: '🥨Go语言教程', link: '/go-language-tutorial/'
           },
           {
-            text: '开发工具',
+            text: '🖥️开发工具',
             items: [
               // {
               //   text: 'VsCode插件开发教程', link: '/vscode-extension-development/README'
@@ -83,7 +84,7 @@ module.exports = {
             text: '🧊数据结构', link: '/data-structure/'
           },
           {
-            text: 'Linux教程', link: '/linux-tutorial/'
+            text: '💷Linux教程', link: '/linux-tutorial/'
           },
           {
             text: '📑面试题', link: '/interview-questions/'
@@ -309,12 +310,12 @@ module.exports = {
     // 作为特例，默认语言可以使用 '/' 作为其路径。
     '/': {
       lang: 'zh-CN',
-      text: '全栈手册',
+      title: '全栈手册',
       description: '全栈手册'
     },
     '/en/': {
       lang: 'en-US', // 将会被设置为 <html> 的 lang 属性
-      text: 'Full Stack Manual',
+      title: 'Full Stack Manual',
       description: `Full Stack Manual`
     }
   }
