@@ -29,7 +29,7 @@
 ## 编译Typescript
 如果你的插件是Typescript实现的，那你首先就要把代码编译成Javascript。
 编译过程的配置如下所示：
-- `tsconfig.json`定义了Typescript的编译选项。了解更多[Typescript wiki](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)或者[Typescript语言章节](https://code.visualstudio.com/docs/languages/typescript#_tsconfigjson)
+- `tsconfig.json`定义了Typescript的编译选项。了解更多[Typescript wiki](https://www.typescriptlang.org/docs/handtsconfig-json.html)或者[Typescript语言章节](https://code.visualstudio.com/docs/languages/typescript#_tsconfigjson)
 - 当前Typescript编译器的版本在`node_modules`文件夹里面
 - API定义在`node_modules/vscode`中
 

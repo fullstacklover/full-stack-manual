@@ -1,28 +1,19 @@
 ---
 home: true
-heroImage: /images/full-stack-manual.png
-actionText: Start →
-actionLink: /zh/book/
-# features:
-# - title: title 1
-#   details: details 1
-# - title: title 2
-#   details: details 2
-# - title: title 3
-#   details: details 3
-footer: MIT Licensed | Copyright © 2019-present FullStackLover
+heroImage: /images/full-stack-manual_zh.png
+actionText: 开始阅读 →
+actionLink: /zh/
+features:
+- title: 全面
+  details: 这里会收集整理目前会用到的几乎所有知识点
+- title: 细致
+  details: 我们会对每一块内容做细致的检查排错
+- title: 成长
+  details: 希望所有读者可以在手册里面学到东西，并有所成长
+footer: MIT Licensed | Copyright © 2019-present 全栈爱好者 鄂ICP备20006255号
 ---
-<!-- # README
-A vuepress template
+# README
+这是一本汇集大量开发手册的网站
 
-::: tip
-This is a tip
-:::
-
-::: warning
-This is a warning
-:::
-
-::: danger
-This is a dangerous warning
-::: -->
+微信：misitebao_work
+邮箱：misitebao@fullstacklover.com

@@ -35,7 +35,7 @@
 下面的几个文件超出了本节讨论的范围，你可以自行前往相应的章节挖掘详细内容：
 - `launch.json` 用于配置VS Code [调试](https://code.visualstudio.com/docs/editor/debugging)
 - `tasks.json` 用于定义VS Code [任务](https://code.visualstudio.com/docs/editor/tasks)
-- `tsconfig.json` 参阅TypeScript [Handbook](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
+- `tsconfig.json` 参阅TypeScript [Handbook](https://www.typescriptlang.org/docs/handtsconfig-json.html)
 
 现在，让我们把精力集中在这个插件的关键部分——`package.json`和`extensions.ts`。
 

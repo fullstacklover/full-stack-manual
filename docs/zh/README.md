@@ -2,7 +2,7 @@
 home: true
 heroImage: /images/full-stack-manual_zh.png
 actionText: 开始阅读 →
-actionLink: /zh/book/
+actionLink: /zh/
 features:
 - title: 全面
   details: 这里会收集整理目前会用到的几乎所有知识点
