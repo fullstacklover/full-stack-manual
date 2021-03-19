@@ -74,9 +74,9 @@ module.exports = {
           {
             text: '开发工具',
             items: [
-              {
-                text: 'VsCode插件开发教程', link: '/vscode-extension-development/README'
-              },
+              // {
+              //   text: 'VsCode插件开发教程', link: '/vscode-extension-development/README'
+              // },
             ]
           },
           {
@@ -117,108 +117,108 @@ module.exports = {
           // },
         ],
         sidebar: {
-          '/vscode-extension-development/': [
-            {
-              text: 'VSCode 插件开发文档',
-              link: '/vscode-extension-development/README',
-            }, {
-              text: '术语表和说明',
-              link: '/vscode-extension-development/术语表和说明',
-            },
-            {
-              text: '预备知识',
-              collapsable: false,
-              children: [
-                { text: '非JS开发者的第一步', link: '/vscode-extension-development/preknowledge/first-step' },
-                { text: '认识Typescript-变量和类型', link: '/vscode-extension-development/preknowledge/variable-and-type', },
-                { text: '认识Typescript-类', link: '/vscode-extension-development/preknowledge/class', },
-                { text: '认识Typescript-接口和命名空间', link: '/vscode-extension-development/preknowledge/interface-and-namespace', },
-                { text: '认识Typescript-泛型', link: '/vscode-extension-development/preknowledge/generics', },
-                { text: '认识Typescript-声明文件', link: '/vscode-extension-development/preknowledge/declaration-files', },
-              ]
-            },
-            {
-              text: '第一步',
-              collapsable: false,
-              children: [
-                { text: '你的第一个插件', link: '/vscode-extension-development/get-started/your-first-extension' },
-                { text: '解析插件结构', link: '/vscode-extension-development/get-started/extension-anatomy', },
-                { text: '小结', link: '/vscode-extension-development/get-started/wrapping-up', },
-              ]
-            },
-            {
-              text: '开发插件',
-              collapsable: false,
-              children: [
-                { text: '测试插件', link: '/vscode-extension-development/working-with-extensions/testing-extension' },
-                { text: '发布插件', link: '/vscode-extension-development/working-with-extensions/publish-extension' },
-                { text: '打包插件', link: '/vscode-extension-development/working-with-extensions/bundling-extension' },
-                { text: '持续集成', link: '/vscode-extension-development/working-with-extensions/continuous-integration' },
-              ]
-            },
-            {
-              text: '插件功能',
-              collapsable: false,
-              children: [
-                { text: '概述', link: '/vscode-extension-development/extension-capabilities/' },
-                { text: '常用功能', link: '/vscode-extension-development/extension-capabilities/common-capabilities' },
-                { text: '主题', link: '/vscode-extension-development/extension-capabilities/theming' },
-                { text: '扩展工作台', link: '/vscode-extension-development/extension-capabilities/extending-workbench' },
-              ]
-            },
-            {
-              text: '插件指南',
-              collapsable: false,
-              children: [
-                { text: '概述', link: '/vscode-extension-development/extension-guides/' },
-                { text: '命令', link: '/vscode-extension-development/extension-guides/command' },
-                { text: '色彩主题', link: '/vscode-extension-development/extension-guides/color-theme' },
-                { text: '图标主题', link: '/vscode-extension-development/extension-guides/icon-theme' },
-                { text: '树视图', link: '/vscode-extension-development/extension-guides/tree-view' },
-                { text: 'Webview', link: 'extension-guides/webview' },
-                { text: '虚拟文档', link: '/vscode-extension-development/extension-guides/virtual-documents' },
-                { text: '任务', link: '/vscode-extension-development/extension-guides/task-provider' },
-                { text: '源控制', link: '/vscode-extension-development/extension-guides/scm-provider' },
-                { text: '调试器插件', link: '/vscode-extension-development/extension-guides/debugger-extension' },
-                { text: 'Markdown插件', link: '/vscode-extension-development/extension-guides/markdown-extension' },
-              ]
-            },
-            {
-              text: '语言插件',
-              collapsable: false,
-              children: [
-                { text: '概述', link: '/vscode-extension-development/language-extensions/' },
-                { text: '语法高亮', link: '/vscode-extension-development/language-extensions/syntax-highlight-guide' },
-                { text: '代码片段', link: '/vscode-extension-development/language-extensions/snippet-guide' },
-                { text: '语言配置', link: '/vscode-extension-development/language-extensions/language-configuration-guide' },
-                { text: '程序性语言特性', link: '/vscode-extension-development/language-extensions/programmatic-language-features' },
-                { text: '语言服务器', link: '/vscode-extension-development/language-extensions/language-server-extension-guide' },
-              ]
-            },
-            {
-              text: '进阶主题',
-              collapsable: false,
-              children: [
-                { text: '插件主机', link: '/vscode-extension-development/advanced-topics/extension-host' },
-                { text: '远程开发', link: '/vscode-extension-development/advanced-topics/remote-extensions' },
-                { text: '使用不稳定的API', link: '/vscode-extension-development/advanced-topics/using-proposed-api' },
-              ]
-            },
-            {
-              text: '参考',
-              collapsable: false,
-              children: [
-                { text: 'VS Code API', link: '/vscode-extension-development/references/vscode-api' },
-                { text: '发布内容配置', link: '/vscode-extension-development/references/contribution-points' },
-                { text: '激活事件', link: '/vscode-extension-development/references/activation-events' },
-                { text: '插件清单', link: '/vscode-extension-development/references/extension-manifest' },
-                { text: '命令', link: '/vscode-extension-development/references/commands' },
-                { text: '主题色彩', link: '/vscode-extension-development/references/theme-color' },
-                { text: '标签中的图标', link: '/vscode-extension-development/references/icons-in-labels' },
-                { text: '文档选择器', link: '/vscode-extension-development/references/document-selector' },
-              ]
-            }
-          ],
+          // '/vscode-extension-development/': [
+          //   {
+          //     text: 'VSCode 插件开发文档',
+          //     link: '/vscode-extension-development/README',
+          //   }, {
+          //     text: '术语表和说明',
+          //     link: '/vscode-extension-development/术语表和说明',
+          //   },
+          //   {
+          //     text: '预备知识',
+          //     collapsable: false,
+          //     children: [
+          //       { text: '非JS开发者的第一步', link: '/vscode-extension-development/preknowledge/first-step' },
+          //       { text: '认识Typescript-变量和类型', link: '/vscode-extension-development/preknowledge/variable-and-type', },
+          //       { text: '认识Typescript-类', link: '/vscode-extension-development/preknowledge/class', },
+          //       { text: '认识Typescript-接口和命名空间', link: '/vscode-extension-development/preknowledge/interface-and-namespace', },
+          //       { text: '认识Typescript-泛型', link: '/vscode-extension-development/preknowledge/generics', },
+          //       { text: '认识Typescript-声明文件', link: '/vscode-extension-development/preknowledge/declaration-files', },
+          //     ]
+          //   },
+          //   {
+          //     text: '第一步',
+          //     collapsable: false,
+          //     children: [
+          //       { text: '你的第一个插件', link: '/vscode-extension-development/get-started/your-first-extension' },
+          //       { text: '解析插件结构', link: '/vscode-extension-development/get-started/extension-anatomy', },
+          //       { text: '小结', link: '/vscode-extension-development/get-started/wrapping-up', },
+          //     ]
+          //   },
+          //   {
+          //     text: '开发插件',
+          //     collapsable: false,
+          //     children: [
+          //       { text: '测试插件', link: '/vscode-extension-development/working-with-extensions/testing-extension' },
+          //       { text: '发布插件', link: '/vscode-extension-development/working-with-extensions/publish-extension' },
+          //       { text: '打包插件', link: '/vscode-extension-development/working-with-extensions/bundling-extension' },
+          //       { text: '持续集成', link: '/vscode-extension-development/working-with-extensions/continuous-integration' },
+          //     ]
+          //   },
+          //   {
+          //     text: '插件功能',
+          //     collapsable: false,
+          //     children: [
+          //       { text: '概述', link: '/vscode-extension-development/extension-capabilities/' },
+          //       { text: '常用功能', link: '/vscode-extension-development/extension-capabilities/common-capabilities' },
+          //       { text: '主题', link: '/vscode-extension-development/extension-capabilities/theming' },
+          //       { text: '扩展工作台', link: '/vscode-extension-development/extension-capabilities/extending-workbench' },
+          //     ]
+          //   },
+          //   {
+          //     text: '插件指南',
+          //     collapsable: false,
+          //     children: [
+          //       { text: '概述', link: '/vscode-extension-development/extension-guides/' },
+          //       { text: '命令', link: '/vscode-extension-development/extension-guides/command' },
+          //       { text: '色彩主题', link: '/vscode-extension-development/extension-guides/color-theme' },
+          //       { text: '图标主题', link: '/vscode-extension-development/extension-guides/icon-theme' },
+          //       { text: '树视图', link: '/vscode-extension-development/extension-guides/tree-view' },
+          //       { text: 'Webview', link: 'extension-guides/webview' },
+          //       { text: '虚拟文档', link: '/vscode-extension-development/extension-guides/virtual-documents' },
+          //       { text: '任务', link: '/vscode-extension-development/extension-guides/task-provider' },
+          //       { text: '源控制', link: '/vscode-extension-development/extension-guides/scm-provider' },
+          //       { text: '调试器插件', link: '/vscode-extension-development/extension-guides/debugger-extension' },
+          //       { text: 'Markdown插件', link: '/vscode-extension-development/extension-guides/markdown-extension' },
+          //     ]
+          //   },
+          //   {
+          //     text: '语言插件',
+          //     collapsable: false,
+          //     children: [
+          //       { text: '概述', link: '/vscode-extension-development/language-extensions/' },
+          //       { text: '语法高亮', link: '/vscode-extension-development/language-extensions/syntax-highlight-guide' },
+          //       { text: '代码片段', link: '/vscode-extension-development/language-extensions/snippet-guide' },
+          //       { text: '语言配置', link: '/vscode-extension-development/language-extensions/language-configuration-guide' },
+          //       { text: '程序性语言特性', link: '/vscode-extension-development/language-extensions/programmatic-language-features' },
+          //       { text: '语言服务器', link: '/vscode-extension-development/language-extensions/language-server-extension-guide' },
+          //     ]
+          //   },
+          //   {
+          //     text: '进阶主题',
+          //     collapsable: false,
+          //     children: [
+          //       { text: '插件主机', link: '/vscode-extension-development/advanced-topics/extension-host' },
+          //       { text: '远程开发', link: '/vscode-extension-development/advanced-topics/remote-extensions' },
+          //       { text: '使用不稳定的API', link: '/vscode-extension-development/advanced-topics/using-proposed-api' },
+          //     ]
+          //   },
+          //   {
+          //     text: '参考',
+          //     collapsable: false,
+          //     children: [
+          //       { text: 'VS Code API', link: '/vscode-extension-development/references/vscode-api' },
+          //       { text: '发布内容配置', link: '/vscode-extension-development/references/contribution-points' },
+          //       { text: '激活事件', link: '/vscode-extension-development/references/activation-events' },
+          //       { text: '插件清单', link: '/vscode-extension-development/references/extension-manifest' },
+          //       { text: '命令', link: '/vscode-extension-development/references/commands' },
+          //       { text: '主题色彩', link: '/vscode-extension-development/references/theme-color' },
+          //       { text: '标签中的图标', link: '/vscode-extension-development/references/icons-in-labels' },
+          //       { text: '文档选择器', link: '/vscode-extension-development/references/document-selector' },
+          //     ]
+          //   }
+          // ],
           // '/AAA/': [
           //   {
           //     text: 'AAAAAAAAAA',
