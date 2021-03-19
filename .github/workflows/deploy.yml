@@ -15,7 +15,7 @@ jobs:
       uses: actions/checkout@master
 
     - name: Build Site
-      run: npm install && npm run build
+      run: npm install && npm run docs:build
 
     - name: Deploy to Server
       uses: hengkx/ssh-deploy@v1.0.1
