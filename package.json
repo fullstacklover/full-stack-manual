@@ -4,9 +4,9 @@
   "description": "全栈知识手册",
   "main": "",
   "scripts": {
-    "dev": "npx vuepress dev docs",
-    "build": "npx vuepress build docs",
-    "serve": "npx serve dist"
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
   },
   "keywords": [
     "全栈",
@@ -16,7 +16,6 @@
   "author": "fullstacklover",
   "license": "ISC",
   "devDependencies": {
-    "serve": "^11.3.2",
-    "vuepress": "^1.5.3"
+    "vitepress": "^0.12.2"
   }
 }
