@@ -1,29 +1,27 @@
 name: Deploy
 
-on: 
-  push: 
-    branches: [ master ]
-  # pull_request: 
+on:
+  push:
+    branches: [master]
+  # pull_request:
   #   branches: [ master ]
-jobs: 
-  build-and-deploy: 
+jobs:
+  build-and-deploy:
     runs-on: ubuntu-latest
     if: github.repository == 'fullstacklover/full-stack-manual'
 
-    steps: 
-    - name: Checkout
-      uses: actions/checkout@master
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
 
-    - name: Build Site
-      run: npm install
-      run: npm run docs:build
+      - name: Build Site
+        run: npm install && npm run docs:build
 
-    - name: Deploy to Server
-      uses: hengkx/ssh-deploy@v1.0.1
-      with:  
+      - name: Deploy to Server
+        uses: hengkx/ssh-deploy@v1.0.1
+        with:
           HOST: ${{ secrets.DEPLOY_HOST }}
           USERNAME: ${{ secrets.DEPLOY_HOST_USER }} # 为了用户信息安全对敏感数据可以在secrets中配置请看下图
           PASSWORD: ${{ secrets.DEPLOY_HOST_PASSWORD }}
-          SOURCE: 'docs/.vitepress/dist'
-          TARGET: '/www/wwwroot/manual.fullstacklover.com'
-      
+          SOURCE: "docs/.vitepress/dist"
+          TARGET: "/www/wwwroot/manual.fullstacklover.com"
