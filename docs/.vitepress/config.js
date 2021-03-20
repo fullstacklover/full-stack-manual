@@ -19,8 +19,8 @@ module.exports = {
   theme: undefined,
   themeConfig: {
     logo: '/images/fullstacklover_gravatar.png',
-    repo: 'https://github.com/tigateam/full-stack-manual', // 顶部显示的github地址
-    docsRepo: 'https://github.com/tigateam/full-stack-manual', //文档内改进页面的仓库地址
+    repo: 'https://github.com/fullstacklover/full-stack-manual', // 顶部显示的github地址
+    docsRepo: 'https://github.com/fullstacklover/full-stack-manual', //文档内改进页面的仓库地址
     docsDir: 'docs', //文档目录
     docsBranch: 'master', //分支
     editLinks: true,
