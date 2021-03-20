@@ -12,7 +12,7 @@ module.exports = {
     }]
   ],
   host: '0.0.0.0',
-  dest: './dist',//打包输出目录
+  // dest: '../../dist',//打包输出目录
   markdown: {
     lineNumbers: true
   },
